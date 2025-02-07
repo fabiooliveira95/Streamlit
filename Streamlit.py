@@ -32,12 +32,11 @@ def convert_df(df):
     return df.to_csv(index=False).encode('utf-8')
 
 
-# Função para converter o df para excel
 def to_excel(df):
     output = BytesIO()
     writer = pd.ExcelWriter(output, engine='xlsxwriter')
     df.to_excel(writer, index=False, sheet_name='Sheet1')
-    writer.save()
+    writer.close()  # Alterado de writer.save() para writer.close()
     processed_data = output.getvalue()
     return processed_data
 
@@ -180,20 +179,20 @@ def main():
         st.markdown("---")
 
         st.write('## Proporção de aceite')
+        #Atualizando para garantir que a coluna seja nomeada corretamente para plotar
+        bank_raw_target_perc = bank_raw.y.value_counts(normalize=True).reset_index()
+        bank_raw_target_perc.columns = ['y', 'proporcao']  # Renomeia as colunas
+
+        bank_target_perc = bank.y.value_counts(normalize=True).reset_index()
+        bank_target_perc.columns = ['y', 'proporcao']  # Renomeia as colunas
         # PLOTS
         if graph_type == 'Barras':
-            sns.barplot(x=bank_raw_target_perc.index,
-                        y='y',
-                        data=bank_raw_target_perc,
-                        ax=ax[0])
+            sns.barplot(x=bank_raw_target_perc['y'], y=bank_raw_target_perc['proporcao'], ax=ax[0])
             ax[0].bar_label(ax[0].containers[0])
             ax[0].set_title('Dados brutos',
                             fontweight="bold")
 
-            sns.barplot(x=bank_target_perc.index,
-                        y='y',
-                        data=bank_target_perc,
-                        ax=ax[1])
+            sns.barplot(x=bank_target_perc['y'], y=bank_target_perc['proporcao'], ax=ax[1])
             ax[1].bar_label(ax[1].containers[0])
             ax[1].set_title('Dados filtrados',
                             fontweight="bold")
