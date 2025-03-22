@@ -33,7 +33,6 @@ Python
 
 1.Instale as dependências:
 
-<span style="color:blue;">pip install -r requirements.txt</span>
 **pip install -r requirements.txt**
 
 2.Execute o aplicativo Streamlit:
@@ -47,3 +46,14 @@ Python
 * │── requirements.txt       # Lista de dependências
 * │── README.md              # Documentação do projeto
 * │── Bank-Branding.jpg      # Imagem usada na interface
+
+
+### Uso
+
+* Faça o upload do arquivo contendo os dados da campanha.
+
+* Utilize os filtros disponíveis para segmentar os dados conforme necessário.
+
+* Visualize os gráficos gerados com os dados filtrados.
+
+* Baixe os dados processados em formato CSV ou Excel.
