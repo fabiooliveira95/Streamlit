@@ -38,9 +38,6 @@ Este projeto é um aplicativo interativo criado com Streamlit para analisar dado
 ### Uso
 
 * Faça o upload do arquivo contendo os dados da campanha.
-
 * Utilize os filtros disponíveis para segmentar os dados conforme necessário.
-
 * Visualize os gráficos gerados com os dados filtrados.
-
 * Baixe os dados processados em formato CSV ou Excel.
