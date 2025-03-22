@@ -29,10 +29,10 @@ Este projeto é um aplicativo interativo criado com Streamlit para analisar dado
 ### Estrutura do Projeto
 
 📂 Projeto
-│── Streamlit1.py          # Código principal do aplicativo
-│── requirements.txt       # Lista de dependências
-│── README.md              # Documentação do projeto
-│── Bank-Branding.jpg      # Imagem usada na interface
+*│── Streamlit1.py          # Código principal do aplicativo
+*│── requirements.txt       # Lista de dependências
+*│── README.md              # Documentação do projeto
+*│── Bank-Branding.jpg      # Imagem usada na interface
 
 
 ### Uso
