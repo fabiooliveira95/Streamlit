@@ -33,6 +33,7 @@ Python
 
 1.Instale as dependências:
 
+<span style="color:blue;">pip install -r requirements.txt</span>
 **pip install -r requirements.txt**
 
 2.Execute o aplicativo Streamlit:
