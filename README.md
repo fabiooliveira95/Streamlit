@@ -9,20 +9,13 @@ Este projeto é um aplicativo interativo criado com Streamlit para analisar dado
 - Geração de gráficos dinâmicos (barras ou pizza) para análise dos resultados
 - Opção de download dos dados filtrados em formatos CSV e Excel
 
-
-### Tecnologias Utilizadas
-
-Python
-
-``Streamlit`` (interface interativa)
-
-``Pandas`` (manipulação de dados)
-
-``Seaborn & Matplotlib`` (visualização de dados)
-
-``Pillow`` (manipulação de imagens)
-
-``XlsxWriter`` (exportação para Excel)
+## Tecnologias Utilizadas
+- **Python**
+- **Streamlit** (interface interativa)
+- **Pandas** (manipulação de dados)
+- **Seaborn & Matplotlib** (visualização de dados)
+- **Pillow** (manipulação de imagens)
+- **XlsxWriter** (exportação para Excel
 
 ### Como Executar o Projeto
 
