@@ -40,3 +40,9 @@ Python
 **streamlit run Streamlit1.py**
 
 ### Estrutura do Projeto
+
+📂 Projeto
+│── Streamlit1.py          # Código principal do aplicativo
+│── requirements.txt       # Lista de dependências
+│── README.md              # Documentação do projeto
+│── Bank-Branding.jpg      # Imagem usada na interface
