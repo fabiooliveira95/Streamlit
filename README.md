@@ -17,11 +17,10 @@ Este projeto é um aplicativo interativo criado com Streamlit para analisar dado
 - **Pillow** (manipulação de imagens)
 - **XlsxWriter** (exportação para Excel
 
-### Como Executar o Projeto
-
-1.Instale as dependências:
-
-**pip install -r requirements.txt**
+## Como Executar o Projeto
+1. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
 
 2.Execute o aplicativo Streamlit:
 
