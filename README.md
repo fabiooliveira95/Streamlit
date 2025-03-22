@@ -19,15 +19,15 @@ Opção de download dos dados filtrados em formatos CSV e Excel
 
 Python
 
-Streamlit (interface interativa)
+``Streamlit`` (interface interativa)
 
-Pandas (manipulação de dados)
+``Pandas`` (manipulação de dados)
 
-Seaborn & Matplotlib (visualização de dados)
+``Seaborn & Matplotlib`` (visualização de dados)
 
-Pillow (manipulação de imagens)
+``Pillow`` (manipulação de imagens)
 
-XlsxWriter (exportação para Excel)
+``XlsxWriter`` (exportação para Excel)
 
 ### Como Executar o Projeto
 
