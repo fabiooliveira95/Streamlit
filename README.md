@@ -33,10 +33,10 @@ Python
 
 1.Instale as dependências:
 
-pip install -r requirements.txt
+**pip install -r requirements.txt**
 
 2.Execute o aplicativo Streamlit:
 
-streamlit run Streamlit1.py
+**streamlit run Streamlit1.py**
 
 ### Estrutura do Projeto
