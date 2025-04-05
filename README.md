@@ -41,3 +41,10 @@ Este projeto é um aplicativo interativo criado com Streamlit para analisar dado
 * Utilize os filtros disponíveis para segmentar os dados conforme necessário.
 * Visualize os gráficos gerados com os dados filtrados.
 * Baixe os dados processados em formato CSV ou Excel.
+
+## 📬 Contato
+
+Fábio Oliveira  
+🔗 [LinkedIn](https://www.linkedin.com/in/fabio-oliveira-araujo-cientista/)  
+📧 fabiooliveira0067@gmail.com
+
