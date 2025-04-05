@@ -22,7 +22,7 @@ Este projeto é um aplicativo interativo criado com Streamlit para analisar dado
 ```bash
    pip install -r requirements.txt
 ```
-3. Execute o aplicativo Streamlit:
+2. Execute o aplicativo Streamlit:
 ```bash
    streamlit run Streamlit1.py
 ```
