@@ -19,13 +19,13 @@ Este projeto é um aplicativo interativo criado com Streamlit para analisar dado
 
 ## Como Executar o Projeto
 1. Instale as dependências:
-   ```bash
+```bash
    pip install -r requirements.txt
-
-2. Execute o aplicativo Streamlit:
-   ```bash
+```
+3. Execute o aplicativo Streamlit:
+```bash
    streamlit run Streamlit1.py
-
+```
 ### Estrutura do Projeto
 
 📂 Projeto
